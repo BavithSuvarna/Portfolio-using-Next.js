@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiFlask, SiJavascript, SiTableau } from "react-icons/si";
+import { SiFlask, SiJavascript, SiNextdotjs, SiTableau } from "react-icons/si";
 import { DiJava, DiMongodb } from "react-icons/di";
-import { FaCss3Alt, FaPython, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -99,13 +99,13 @@ const Technologies = () => {
           </motion.div>
 
           <motion.div
-            variants={iconVariants(5)}
+            variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4 flex flex-col items-center"
           >
-            <FaPython className="text-7xl text-[#3776AB]" />
-            <p className="mt-2 text-white text-sm">Python</p>
+            <SiNextdotjs className="text-7xl text-white" />
+            <p className="mt-2 text-white text-sm">Next.js</p>
           </motion.div>
 
           <motion.div
