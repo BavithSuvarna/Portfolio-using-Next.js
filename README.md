@@ -30,7 +30,8 @@ This portfolio showcases my **journey, projects, tech arsenal, achievements and 
 ![Projects](screenshots/Projects.png)
 
 ### Experience
-![Experience](screenshots/Experience.png)
+![Experience](screenshots/Tech.png)
+![Achievements](screenshots/Achievements.png)
 
 ### Contact
 ![Contact](screenshots/Contact.png)
