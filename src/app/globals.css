@@ -7,4 +7,10 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+}
+
+html,
+body {
+  @apply bg-neutral-950;
 }
